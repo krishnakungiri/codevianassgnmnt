@@ -8,7 +8,7 @@ const path = require("path");
 
 // Setting up port
 const connUri = process.env.MONGO_LOCAL_CONN_URL;
-let PORT = process.env.PORT || 3000;
+let PORT = process.env.PORT || 3500;
 
 //=== 1 - CREATE APP
 // Creating express app and configuring middleware needed for authentication
